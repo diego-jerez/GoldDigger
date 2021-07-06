@@ -59,11 +59,10 @@ REDIS_PORT = "6380
         ```
         sh scripts/run_celery.sh
         
-        celery -A GoldDigger worker -l info
         ```
         3. open a new terminal window and run django server
         ```
-        scripts/run_django.sh
+        sh scripts/run_django.sh
         ```
         4. open a new terminal window and run flower (to monitor celery processes, usually not needed)
         ```
